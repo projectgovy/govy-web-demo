@@ -71,7 +71,7 @@ a:visited {
 a.button {
   display: block;
   position: relative;
-  float: left;
+  float: none;
   width: 120px;
   padding: 0;
   margin: 10px 20px 10px 0;
