@@ -20,6 +20,10 @@
             main_img.width = size.width;
           </script>  -->
           <style>
+.clear {
+  clear: both;
+}
+
 .container {
   padding-top: 1em;
   margin-top: 1em;
@@ -28,6 +32,7 @@
     1px
     #ffffff;
 }
+
 a.button {
   display: block;
   position: relative;
@@ -248,7 +253,9 @@ a.button {
 }
           </style>
               <p class="container"><a href="" title="Play" class="button btnPush btnBlueGreen">Play</a></p>
+              <div class="clear"></div>
               <p class="container"><a href="" title="Pause" class="button btnPush btnOrange">Pause</a><br></p>
+              <div class="clear"></div>
               <p class="container">Volume <input type="range" min="0" max="100"></p>
     </body>
 </html>
