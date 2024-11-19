@@ -55,6 +55,7 @@ a:visited {
 }
 
 .wrapper {
+  width: 200px;
   margin: 20px auto;
 }
 
